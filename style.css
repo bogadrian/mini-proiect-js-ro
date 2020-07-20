@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(189, 139, 139);
+  display: none;
+  margin-top: 50px;
+  text-align: center;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.modal-text {
+  color: white;
+  font-size: 20px;
+  padding-top: 60px;
+  align-self: center;
+}
+
+.output {
+  font-size: 40px;
+  color: blue;
+  padding: 20px;
+  background-color: rgb(221, 216, 216);
+  display: none;
+  margin-bottom: 30px;
+}
